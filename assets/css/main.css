@@ -1,1 +1,31 @@
 /* custom styles */
+header {
+  display: block;
+}
+
+body {
+  text-align: center;
+  background-position: center;
+  background: url("http://i.imgur.com/pFtg3Qb.png");
+  background-size: cover;
+  color: White;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+h1 {
+  font-size: 100px;
+  font-family: 'Allerta Stencil', sans-serif;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+}
+a {
+     color: white;
+     text-decoration: none;
+}
+ul {
+     padding: 10px;
+     background: rgba(0,0,0,0.5);
+}
+li {
+     display: inline;
+     padding: 0px 10px 0px 10px;
+}
