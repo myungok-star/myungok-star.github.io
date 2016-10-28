@@ -6,7 +6,7 @@ header {
 body {
   text-align: center;
   background-position: center;
-  background: url("http://i.imgur.com/pFtg3Qb.png");
+  background: url("../imgs/sanfrancisco.jpeg");
   background-size: cover;
   color: White;
   font-family: 'Allerta Stencil', sans-serif;
@@ -25,7 +25,6 @@ a {
 ul {
   padding: 10px;
   background: rgba(86,36,36,0.5);
-
 }
 li {
   font-size: 22px;
