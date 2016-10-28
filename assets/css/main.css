@@ -7,6 +7,7 @@ body {
   background-position: center;
   background: url("../imgs/sanfrancisco.jpeg");
   background-size: cover;
+  background-attachment: fixed;
   color: White;
   font-family: 'Allerta Stencil', sans-serif;
 }
