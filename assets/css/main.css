@@ -5,9 +5,10 @@ header {
 
 body {
   text-align: center;
+  background-size: cover;
   background-position: center;
   background: url("../imgs/sanfrancisco.jpeg");
-  background-size: cover;
+  background-repeat: no-repeat;
   color: White;
   font-family: 'Allerta Stencil', sans-serif;
 }
@@ -24,7 +25,7 @@ a {
 }
 ul {
   padding: 10px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.6);
 }
 li {
   font-size: 22px;
