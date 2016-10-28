@@ -1,14 +1,12 @@
-/* custom styles */
 header {
   background: rgba(0,0,0,0.5);
 }
 
 body {
   text-align: center;
-  background-size: cover;
   background-position: center;
   background: url("../imgs/sanfrancisco.jpeg");
-  background-repeat: no-repeat;
+  background-size: cover;
   color: White;
   font-family: 'Allerta Stencil', sans-serif;
 }
@@ -25,7 +23,7 @@ a {
 }
 ul {
   padding: 10px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.5);
 }
 li {
   font-size: 22px;
