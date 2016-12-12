@@ -5,7 +5,7 @@ header {
 body {
   text-align: center;
   background-position: center;
-  background: url("../imgs/sanfrancisco.jpeg");
+  background-image: url("../imgs/sanfrancisco.jpeg");
   background-size: cover;
   background-attachment: fixed;
   color: White;
@@ -64,4 +64,8 @@ nav li {
 
 form {
   padding-top: 20px;
+}
+
+footer {
+  color: black;
 }
