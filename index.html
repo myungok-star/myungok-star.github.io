@@ -1,106 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Star Kim's Page</title>
-        <!-- meta -->
-        <meta charset="utf-8"/>
-        <meta name="description" content="Personal Site">
-        <meta name="author" content="GA Student">
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-        <!-- mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <!-- styles -->
-        <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-        <link rel="stylesheet" type="image/jpeg" href="assets/imgs/sanfrancisco.jpeg">
-        <!-- scripts -->
-        <script type="text/javascript" src="assets/js/app.js"></script>
-        <!--bootstrap cdn -->
-        <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+<html lang="en">
+<head>
 
-        <!-- favicon -->
-        <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>Star Kim</h1>
-            <nav class="menu_bar">
-                <ul>
-                    <li>
-                        <a href="file:///Users/starkim/wdi/myungok-star.github.io/index.html">home</a>
-                    </li>
-                    <li>
-                        <a href="#about_star">about me</a>
-                    </li>
-                    <li>
-                        <a href="#homework">my work</a>
-                    </li>
-                    <li>
-                        <a href="#contact_me">contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div class="about_me" id="about_star">
-            <h3>About Star</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="my_work" id="homework">
-            <h3>Star's Work</h3>
-            <ul>
-                <li>
-                    <a href="https://github.com/myungok-star/problem-set-js-basics/tree/master/challenges" target="_blank">Homework 1 - Javascript Basics</a>
-                </li>
-                <li>
-                    <a href="https://github.com/myungok-star/functions-exercises" target="_blank">Homework 2 - Functions Exercises</a>
-                </li>
-                <li>
-                    <a href="https://github.com/myungok-star/tic-tac-toe" target="_blank">Homework 3 - Tic Tac Toe Game</a>
-                </li>
-                <li>
-                    <a href="https://github.com/myungok-star/js-objects-training" target="_black">Homework 4 - Javascript Objects Problem Set</a>
-                </li>
-                <li>
-                    <a href="https://github.com/myungok-star/racing-game" targer="_blank">Homework 5 - Racing Game: Face Racers</a>
-                </li>
-                <li>
-                  <a hrf="#" targer="_blank">Homework 6</a>
-                </li>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Star Kim's Website</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-            </div>
-            <div class="contact" id="contact_me">
-                <h3>Star's Contact Information</h3>
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                    <div class="row">
-                        <label for="name">Your name:</label><br/>
-                        <input id="name" class="input" name="name" type="text" value="" size="30"/><br/>
-                    </div>
-                    <div class="row">
-                        <label for="email">Your email:</label><br/>
-                        <input id="email" class="input" name="email" type="text" value="" size="30"/><br/>
-                    </div>
-                    <div class="row">
-                        <label for="message">Your message:</label><br/>
-                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
-                    </div>
-                    <input id="submit_button" type="submit" value="Send email"/>
-                </form>
-            </div>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        </body>
-        <footer>
-Created By Star Myung Ok Kim
-<a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
-            </footer>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        </html>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row" id="nav" >
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>I'm a Web Developer.</h4>
+        <p>Hello, I'm a Web Developer with a passion for creativity!</p>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
