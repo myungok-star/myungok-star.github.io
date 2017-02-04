@@ -1,22 +1,22 @@
 a {
-  color: #e8effc;
+  color: #373c44;
   text-decoration: none;
   margin: 0 2.2rem;
   font-size: 1.7rem;
 }
 
 a:hover {
-  color: #c5e6ff;
+  color: black;
 }
 
 #nav {
-  margin: 2.5rem auto;
+  margin: 3rem auto;
   text-align: center;
 }
 
 body {
-  background-color: #385972;
-  color: #e8effc;
+  background-color: white;
+  color: #373c44;
 }
 
 #main {
@@ -30,13 +30,13 @@ body {
   height: 20rem;
 }
 
-div > img {
+.photo > img {
   width: auto;
   height : auto;
   max-height: 100%;
   max-width: 100%;
   border-radius: 50%;
-  border: 7px solid #c5e6ff;
+  border: 7px solid #d1d1d1;
 }
 
 .column {
@@ -45,26 +45,31 @@ div > img {
 
 #about {
   width: 100%;
-  height : 700px;
-  background-color: #e8effc;
-  padding-top: 50px;
+  height : 300px;
+  background-color: #e8e8e8;
+  padding-top: 20px;
 }
 
 #about-box {
-  text-align: left;;
-  margin: 50px auto;
-  color: #385972;
+  text-align: left;
+  margin: 20px auto;
+  color: #373c44;
 }
 
-#work {
-  width: 100%;
-  height: 700px;
-  color: #e8effc;
+.container > h3 {
+  text-align: center;
 }
 
-.project {
-  width: auto;
-  height: 240px;
-  background-color: white;
-  margin-top: 50px;
+.project > img {
+  width: 370px;
+  height: auto;
+}
+
+#project-title {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+#each-project {
+  margin-bottom: 4rem;
 }
