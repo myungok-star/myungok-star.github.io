@@ -45,6 +45,26 @@ div > img {
 
 #about {
   width: 100%;
-  height : 750px;
+  height : 700px;
   background-color: #e8effc;
+  padding-top: 50px;
+}
+
+#about-box {
+  text-align: left;;
+  margin: 50px auto;
+  color: #385972;
+}
+
+#work {
+  width: 100%;
+  height: 700px;
+  color: #e8effc;
+}
+
+.project {
+  width: auto;
+  height: 240px;
+  background-color: white;
+  margin-top: 50px;
 }
