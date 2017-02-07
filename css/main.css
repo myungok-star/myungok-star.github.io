@@ -1,114 +1,116 @@
 a {
-  color: #373c44;
-  text-decoration: none;
-  margin: 0 2.2rem;
-  font-size: 1.7rem;
+    color: #373c44;
+    text-decoration: none;
+    margin: 0 2.2rem;
+    font-size: 1.7rem;
 }
 
 a:hover {
-  color: #e8e8e8;
+    color: #e8e8e8;
 }
 
 #nav {
-  margin: 3rem auto;
-  text-align: center;
+    margin: 3rem auto;
+    text-align: center;
 }
 
 body {
-  background-color: white;
-  color: #373c44;
+    background-color: white;
+    color: #373c44;
 }
 
 #main {
-  text-align: center;
-  margin-bottom: 10rem;
+    text-align: center;
+    margin-bottom: 10rem;
 }
 
 .photo {
-  margin: 14rem auto;
-  width: 20rem;
-  height: 20rem;
+    margin: 14rem auto;
+    width: 20rem;
+    height: 20rem;
 }
 
-.photo > img {
-  width: auto;
-  height : auto;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 50%;
-  border: 7px solid #d1d1d1;
+.photo>img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 7px solid #d1d1d1;
 }
 
 .column {
-  margin-top: -7rem;
+    margin-top: -7rem;
 }
 
 #about {
-  width: 100%;
-  height : auto;
-  background-color: #e8e8e8;
-  padding-top: 2rem;
-  font-size: 1.8rem;
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e8;
+    padding-top: 2rem;
+    font-size: 1.8rem;
 }
 
 #about-box {
-  text-align: left;
-  margin: 3.5rem auto;
-  padding-left: 4.7rem;
-  padding-right: 4.7rem;
-  color: #373c44;
+    text-align: left;
+    margin: 3.5rem auto;
+    padding-left: 4.7rem;
+    padding-right: 4.7rem;
+    padding-bottom: 4rem;
+    color: #373c44;
 }
 
-.container > h3 {
-  text-align: center;
+.container>h3 {
+    text-align: center;
 }
 
 #project-title {
-  text-align: center;
-  margin: 5rem auto;
+    text-align: center;
+    margin: 5rem auto;
 }
 
-a > h4 {
-  margin-top: -2.2rem;
+a>h4 {
+    margin-top: -2.2rem;
 }
 
 #projects {
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 4rem;
 }
 
-.project-image > img {
-  width: 40rem;
-  height: auto;
-  box-shadow: 13px 10px 41px 0px rgba(0,0,0,0.4);;
-
+.project-image>img {
+    width: 100%;
+    height: auto;
+    box-shadow: 11px 8px 26px 0px rgba(0, 0, 0, 0.2);
+    ;
 }
 
 .project-description {
-  width: 40rem;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #each-project {
-  margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 #contact {
-  width: auto;
-  height: 52rem;
-  background-color: #e8e8e8;
-  text-align: center;
+    width: auto;
+    height: 52rem;
+    background-color: #e8e8e8;
+    text-align: center;
 }
 
 #contact-title {
-  padding-top: 5rem;
-  margin-bottom: 3rem;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 #contact-box {
-  margin-top: 9rem;
+    margin-top: 9rem;
 }
 
 #bottom-line {
-  margin-top: 13rem;
+    margin-top: 13rem;
 }
