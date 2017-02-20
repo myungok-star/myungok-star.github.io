@@ -10,7 +10,7 @@ a:hover {
 }
 
 #nav {
-    margin: 3rem auto;
+    margin: 4rem auto;
     text-align: center;
 }
 
@@ -24,23 +24,18 @@ body {
     margin-bottom: 10rem;
 }
 
-.photo {
-    margin: 14rem auto;
-    width: 20rem;
-    height: 20rem;
+#hello {
+  margin-top: 12rem;
+  margin-bottom: 7rem;
 }
 
-.photo>img {
-    width: auto;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-    border: 7px solid #d1d1d1;
+#icons {
+  margin-bottom: 4rem;
 }
 
-.column {
-    margin-top: -7rem;
+#icon {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 #about {
