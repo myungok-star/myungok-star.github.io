@@ -66,6 +66,7 @@ body {
 
 a>h4 {
     margin-top: -2.2rem;
+    margin-bottom: 0;
 }
 
 #projects {
@@ -104,6 +105,7 @@ a>h4 {
 
 #contact-box {
     margin-top: 9rem;
+    cursor: pointer;
 }
 
 #bottom-line {
